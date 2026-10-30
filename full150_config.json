@@ -1,0 +1,49 @@
+{
+  "status": "CONFIRMED",
+  "data": {
+    "csv": "kicker_pose_keypoints.csv",
+    "candidate_group": ["kick_id", "camera_direction", "track_id"],
+    "merge_tracks": false,
+    "frames": 16,
+    "frame_stride": 1,
+    "contact_margin_frames": 1,
+    "fps": null,
+    "velocity_unit": "normalized_coordinate_per_original_frame",
+    "joint_ids": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+    "channels": ["x", "y", "vx", "vy"],
+    "max_interior_missing_frames": 4,
+    "max_boundary_missing_frames": 2,
+    "max_missing_joint_fraction": 0.2,
+    "allow_missing_frame_rows": false,
+    "allow_temporal_padding": false,
+    "use_kicking_foot": false,
+    "labels": {"L": 0, "C": 1, "R": 2}
+  },
+  "model": {
+    "class": "PenaltySTGCN",
+    "channels": [32, 32, 64],
+    "temporal_kernel": 5,
+    "temporal_strides": [1, 1, 2],
+    "dropout": 0.3,
+    "pretrained": false
+  },
+  "training_proposal": {
+    "seed": 42,
+    "group_by": "kick_id",
+    "stratify_by": "kick_direction",
+    "test_fraction": 0.2,
+    "validation_fraction_of_remaining": 0.25,
+    "global_batch_size": 8,
+    "per_gpu_batch_size": 2,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "loss": "cross_entropy_train_kick_inverse_frequency_weights",
+    "max_epochs": 150,
+    "early_stopping_patience": 25,
+    "selection_metric": "validation_macro_f1",
+    "gradient_clip_norm": 1.0,
+    "augmentation": "none",
+    "output_dir": "runs/baseline_4ch_full150"
+  }
+}

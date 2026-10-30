@@ -1,0 +1,21 @@
+{
+  "input_csv": "Main Data/Combined_penalty_pose_keypoints_normalized_20frames_8joints_angles_scaled.csv",
+  "data_dir": "data/main_data_8j20_angles_lr",
+  "output_dir": "runs/main_data_8j20_angles_lr_stgcn_seed42",
+  "seed": 42,
+  "split_fractions": [0.7, 0.15, 0.15],
+  "frames": 20,
+  "joint_ids": [5, 6, 11, 12, 13, 14, 15, 16],
+  "angle_columns": ["knee_angle_l_n", "knee_angle_r_n", "hip_angle_l_n", "hip_angle_r_n"],
+  "labels": {"L": 0, "R": 1},
+  "batch_size": 16,
+  "epochs": 150,
+  "early_stopping_patience": 30,
+  "learning_rate": 0.001,
+  "weight_decay": 0.001,
+  "dropout": 0.3,
+  "gradient_clip_norm": 1.0,
+  "class_weighting": "inverse_train_kick_frequency",
+  "device": "cuda:0",
+  "torch_threads": 2
+}

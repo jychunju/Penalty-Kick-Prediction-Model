@@ -1,0 +1,2 @@
+ultralytics==8.3.228
+lap==0.5.13

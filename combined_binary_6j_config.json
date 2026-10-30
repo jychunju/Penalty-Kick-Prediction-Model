@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "old_csv": "kicker_pose_keypoints.csv",
+  "new_csv": "penalty_pose_keypoints.csv",
+  "joint_ids": [11, 12, 13, 14, 15, 16],
+  "frames": 16,
+  "frame_stride": 1,
+  "channels": ["x", "y", "vx", "vy"],
+  "velocity_unit": "normalized_coordinate_per_original_frame",
+  "labels": {"L": 0, "R": 1},
+  "test_fraction": 0.1,
+  "validation_fraction_of_trainval": 0.1111111111111111,
+  "global_batch_size": 8,
+  "per_gpu_batch_size": 2,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.3,
+  "epochs": 150,
+  "gradient_clip_norm": 1.0,
+  "output_dir": "runs/combined_binary_6j"
+}

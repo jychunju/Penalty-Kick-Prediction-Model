@@ -1,0 +1,61 @@
+{
+  "train_sequences": 55,
+  "validation_sequences": 15,
+  "external_test_sequences": 125,
+  "train_kicks": 52,
+  "validation_kicks": 13,
+  "external_test_kicks": 125,
+  "train_kick_labels": {
+    "C": 10,
+    "R": 20,
+    "L": 22
+  },
+  "validation_kick_labels": {
+    "L": 6,
+    "C": 2,
+    "R": 5
+  },
+  "external_test_labels": {
+    "R": 56,
+    "L": 68,
+    "C": 1
+  },
+  "train_csv_sha256": "5e78f9e1fedf77737d7cdebffff63bc05b013187fb403f287e09ca479ba23d27",
+  "test_csv_sha256": "226e23ec3fca656c70478fcff09fb93db28c42a1c07a06580346f37f376cd20b",
+  "config": {
+    "seed": 42,
+    "train_csv": "kicker_pose_keypoints.csv",
+    "external_test_csv": "penalty_pose_keypoints.csv",
+    "joint_ids": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "frames": 16,
+    "frame_stride": 1,
+    "channels": [
+      "x",
+      "y",
+      "vx",
+      "vy"
+    ],
+    "velocity_unit": "normalized_coordinate_per_original_frame",
+    "labels": {
+      "L": 0,
+      "C": 1,
+      "R": 2
+    },
+    "validation_fraction": 0.2,
+    "global_batch_size": 8,
+    "per_gpu_batch_size": 2,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "epochs": 150,
+    "gradient_clip_norm": 1.0,
+    "output_dir": "runs/cross_dataset_6j"
+  }
+}

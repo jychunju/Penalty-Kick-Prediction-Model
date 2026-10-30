@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.csv
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.png
+*.zip
+*.npz
+/data/
+/Main Data/
+/yolov8*.pt
+# Keep the published training checkpoints; ignore newly generated run outputs.
+/runs/**
+!/runs/**/
+!/runs/**/*.pt
+!/runs/**/*.py
+!/runs/**/*.txt
+!/runs/**/run_info.json

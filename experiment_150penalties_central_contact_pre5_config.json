@@ -1,0 +1,38 @@
+{
+  "input_csv": "Main Data/Combined_penalty_pose_keypoints_normalized_20frames_8joints_angles_scaled_with_150penalties.csv",
+  "data_dir": "data/experiment3_central_contact_pre5_seed42",
+  "output_dir": "runs/experiment3_central_contact_pre5_seed42",
+  "seed": 42,
+  "split_fractions": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "frames": 5,
+  "joint_ids": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "angle_columns": [],
+  "labels": {
+    "L": 0,
+    "R": 1
+  },
+  "batch_size": 16,
+  "epochs": 150,
+  "early_stopping_patience": 25,
+  "learning_rate": 0.001,
+  "weight_decay": 0.001,
+  "dropout": 0.3,
+  "gradient_clip_norm": 1.0,
+  "class_weighting": "inverse_train_kick_frequency",
+  "device": "cuda:2",
+  "torch_threads": 2,
+  "condition": "pre5",
+  "include_contact": true,
+  "camera": "C"
+}
