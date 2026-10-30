@@ -179,3 +179,9 @@ if original-foot directions are needed.
 
 Raw videos, dataset CSVs, generated predictions, and unrelated experiment weights
 are not included. No new training was performed while packaging this repository.
+
+## Acknowledgments
+
+Special thanks to **Illia Reshtanenko**
+([Football RE FOUNDS](https://www.youtube.com/channel/UCsy6t5_MuFJSjwAGSUVXsxQ))
+for collecting and editing the penalty kick video data used in this project.
