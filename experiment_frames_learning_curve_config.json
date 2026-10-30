@@ -1,8 +1,0 @@
-{
-  "reference_run": "runs/main_data_8j20_lr_cv_comparison",
-  "output_dir": "runs/main_data_8j_lr_frames_learning_curve",
-  "devices": ["cuda:0", "cuda:1", "cuda:2", "cuda:3"],
-  "training_fractions": [0.25, 0.5, 0.75, 1.0],
-  "subset_seed": 2026,
-  "note": "Reuse identical full20/train100 reference fits; all other fits use the same folds, stopping splits, seeds, and hyperparameters."
-}

@@ -1,0 +1,375 @@
+{
+  "input_sha256": "0ade91e17037889e2aec5050bce9cf564953095f89f4244626de5c148b54a227",
+  "full_source_hashes": {
+    "/workspace/YSAL/Main Data/Combined_penalty_pose_keypoints_normalized.csv": "160fb541db7a534bb5e653790229d8f305b62e7b61332b7e5c13061267895287",
+    "/workspace/YSAL/Main Data/150penalties_pose_keypoints_normalized.csv": "bda09d9b999aee8a1c27f9dfa0f40bf315c075c94d2e9ad9fb6ed0e138c764b6"
+  },
+  "feature_columns": [
+    "kp_11_xn",
+    "kp_11_yn",
+    "kp_12_xn",
+    "kp_12_yn",
+    "kp_13_xn",
+    "kp_13_yn",
+    "kp_14_xn",
+    "kp_14_yn",
+    "kp_15_xn",
+    "kp_15_yn",
+    "kp_16_xn",
+    "kp_16_yn"
+  ],
+  "label_mapping": {
+    "L": 0,
+    "R": 1
+  },
+  "include_contact": true,
+  "condition": "pre3",
+  "config": {
+    "input_csv": "Main Data/Combined_penalty_pose_keypoints_normalized_20frames_8joints_angles_scaled_with_150penalties.csv",
+    "data_dir": "data/experiment3_central_contact_pre3_seed42",
+    "output_dir": "runs/experiment3_central_contact_pre3_seed42",
+    "seed": 42,
+    "split_fractions": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "frames": 3,
+    "joint_ids": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "angle_columns": [],
+    "labels": {
+      "L": 0,
+      "R": 1
+    },
+    "batch_size": 16,
+    "epochs": 150,
+    "early_stopping_patience": 25,
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "dropout": 0.3,
+    "gradient_clip_norm": 1.0,
+    "class_weighting": "inverse_train_kick_frequency",
+    "device": "cuda:1",
+    "torch_threads": 2,
+    "condition": "pre3",
+    "include_contact": true,
+    "camera": "C"
+  },
+  "model": {
+    "name": "6-joint XY-only small ST-GCN",
+    "parameters": 11066,
+    "device": "cuda:1",
+    "coordinates_shape": [
+      "batch",
+      2,
+      3,
+      6
+    ],
+    "angles_used": false
+  },
+  "camera_rule": "EPL/Women/150penalties: annotated C only; CLT=C by prior user confirmation",
+  "checkpoint_sha256": "4d836150d10bfa905834840916b4b048b5b195544bda76db215f69650d8659d0",
+  "checkpoint_source": "runs/experiment3_central_contact_pre3_seed42/best.pt",
+  "historical_paths_note": "Absolute paths record the original training environment; runtime paths are in config.json.",
+  "metrics": {
+    "best_epoch": 25,
+    "epochs_completed": 50,
+    "elapsed_seconds": 10.77506186813116,
+    "selection_metric": "validation macro F1, then validation loss",
+    "train": {
+      "num_kicks": 132,
+      "accuracy": 0.946969696969697,
+      "macro_f1": 0.9464503042596348,
+      "recall_L_R": [
+        0.9324324324324325,
+        0.9655172413793104
+      ],
+      "confusion_matrix_L_R": [
+        [
+          69,
+          5
+        ],
+        [
+          2,
+          56
+        ]
+      ],
+      "by_dataset": {
+        "150penalties": {
+          "num_kicks": 30,
+          "accuracy": 0.8333333333333334,
+          "macro_f1": 0.8331479421579533,
+          "recall_L_R": [
+            0.7647058823529411,
+            0.9230769230769231
+          ],
+          "confusion_matrix_L_R": [
+            [
+              13,
+              4
+            ],
+            [
+              1,
+              12
+            ]
+          ]
+        },
+        "EPL": {
+          "num_kicks": 18,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "recall_L_R": [
+            1.0,
+            1.0
+          ],
+          "confusion_matrix_L_R": [
+            [
+              11,
+              0
+            ],
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "Women": {
+          "num_kicks": 84,
+          "accuracy": 0.9761904761904762,
+          "macro_f1": 0.9759725400457666,
+          "recall_L_R": [
+            0.9782608695652174,
+            0.9736842105263158
+          ],
+          "confusion_matrix_L_R": [
+            [
+              45,
+              1
+            ],
+            [
+              1,
+              37
+            ]
+          ]
+        }
+      },
+      "loss": 0.12741191685199738
+    },
+    "validation": {
+      "num_kicks": 28,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "recall_L_R": [
+        1.0,
+        1.0
+      ],
+      "confusion_matrix_L_R": [
+        [
+          16,
+          0
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "by_dataset": {
+        "150penalties": {
+          "num_kicks": 6,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "recall_L_R": [
+            1.0,
+            1.0
+          ],
+          "confusion_matrix_L_R": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              3
+            ]
+          ]
+        },
+        "EPL": {
+          "num_kicks": 4,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "recall_L_R": [
+            1.0,
+            1.0
+          ],
+          "confusion_matrix_L_R": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        "Women": {
+          "num_kicks": 18,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "recall_L_R": [
+            1.0,
+            1.0
+          ],
+          "confusion_matrix_L_R": [
+            [
+              11,
+              0
+            ],
+            [
+              0,
+              7
+            ]
+          ]
+        }
+      },
+      "loss": 0.13502098619937897
+    },
+    "test_integrated": {
+      "num_kicks": 28,
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.8502673796791445,
+      "recall_L_R": [
+        0.9375,
+        0.75
+      ],
+      "confusion_matrix_L_R": [
+        [
+          15,
+          1
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "by_dataset": {
+        "150penalties": {
+          "num_kicks": 6,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "recall_L_R": [
+            1.0,
+            1.0
+          ],
+          "confusion_matrix_L_R": [
+            [
+              4,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        "EPL": {
+          "num_kicks": 4,
+          "accuracy": 0.5,
+          "macro_f1": 0.5,
+          "recall_L_R": [
+            0.5,
+            0.5
+          ],
+          "confusion_matrix_L_R": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "Women": {
+          "num_kicks": 18,
+          "accuracy": 0.8888888888888888,
+          "macro_f1": 0.8831168831168831,
+          "recall_L_R": [
+            1.0,
+            0.75
+          ],
+          "confusion_matrix_L_R": [
+            [
+              10,
+              0
+            ],
+            [
+              2,
+              6
+            ]
+          ]
+        }
+      },
+      "loss": 0.5547491312026978
+    },
+    "test_clt": {
+      "num_kicks": 21,
+      "accuracy": 0.6190476190476191,
+      "macro_f1": 0.6181818181818182,
+      "recall_L_R": [
+        0.7,
+        0.5454545454545454
+      ],
+      "confusion_matrix_L_R": [
+        [
+          7,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "by_dataset": {
+        "CLT": {
+          "num_kicks": 21,
+          "accuracy": 0.6190476190476191,
+          "macro_f1": 0.6181818181818182,
+          "recall_L_R": [
+            0.7,
+            0.5454545454545454
+          ],
+          "confusion_matrix_L_R": [
+            [
+              7,
+              3
+            ],
+            [
+              5,
+              6
+            ]
+          ]
+        }
+      },
+      "loss": 0.8302752375602722
+    },
+    "train_class_weights_L_R": [
+      0.8918918967247009,
+      1.137930989265442
+    ],
+    "input_file_unchanged": true,
+    "test_evaluations_per_set": {
+      "integrated": 1,
+      "CLT": 1
+    },
+    "note": "Single exploratory seed; no player/match-level separation or cross-validation. Goal not used."
+  }
+}

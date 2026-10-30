@@ -1,15 +1,13 @@
-"""Small, randomly initialized ST-GCN proposal. No training entry point."""
+"""Final central-camera six-joint ST-GCN (checkpoint-compatible)."""
 import torch
 from torch import nn
 
-# Local nodes 0..11 correspond to COCO keypoints 5..16.
-EDGES = ((0, 1), (0, 2), (2, 4), (1, 3), (3, 5),
-         (0, 6), (1, 7), (6, 7), (6, 8), (8, 10),
-         (7, 9), (9, 11))
-LOWER_BODY_EDGES = ((0, 1), (0, 2), (2, 4), (1, 3), (3, 5))
+JOINTS = (11, 12, 13, 14, 15, 16)
+EDGES = ((0, 1), (0, 2), (1, 3), (2, 4), (3, 5))
+FEATURES = tuple(f"kp_{joint}_{axis}n" for joint in JOINTS for axis in "xy")
+LABELS = ("L", "R")
 
-
-def make_adjacency(num_nodes=12, edges=EDGES, roots=(6, 7)):
+def make_adjacency(num_nodes=6, edges=EDGES, roots=(0, 1)):
     """Partitions: equal hip distance, closer source, farther source.
 
     A[k, destination, source] aggregates source features at destination.
@@ -63,26 +61,24 @@ class STGCNBlock(nn.Module):
 
 
 class PenaltySTGCN(nn.Module):
-    """Input (N, 4, 16, 12, 1); output logits (N, 3), L/C/R."""
-    def __init__(self, dropout=0.3, num_joints=12, edges=EDGES, roots=(6, 7),
-                 num_classes=3):
+    """Input (batch, 3, 12) normalized XY; output L/R logits."""
+    def __init__(self, dropout=0.3):
         super().__init__()
-        self.num_joints = num_joints
-        self.register_buffer('adjacency', make_adjacency(num_joints, edges, roots))
-        self.input_norm = nn.BatchNorm1d(4 * num_joints)
+        self.coordinate_norm = nn.BatchNorm1d(12)
+        self.register_buffer("adjacency", make_adjacency())
         self.blocks = nn.ModuleList([
-            STGCNBlock(4, 32, dropout=dropout),
-            STGCNBlock(32, 32, dropout=dropout),
-            STGCNBlock(32, 64, stride=2, dropout=dropout),
+            STGCNBlock(2, 16, dropout=dropout),
+            STGCNBlock(16, 16, dropout=dropout),
+            STGCNBlock(16, 32, stride=2, dropout=dropout),
         ])
-        self.head = nn.Sequential(nn.Dropout(dropout), nn.Linear(64, num_classes))
+        self.head = nn.Sequential(nn.Dropout(dropout), nn.Linear(32, 2))
 
     def forward(self, x):
-        if x.ndim != 5 or tuple(x.shape[1:]) != (4, 16, self.num_joints, 1):
-            raise ValueError(f'Expected input shape (N, 4, 16, {self.num_joints}, 1)')
-        n = x.shape[0]
-        x = x[..., 0].permute(0, 3, 1, 2).reshape(n, 4 * self.num_joints, 16)
-        x = self.input_norm(x).reshape(n, self.num_joints, 4, 16).permute(0, 2, 3, 1)
+        if x.ndim != 3 or tuple(x.shape[1:]) != (3, 12):
+            raise ValueError("Expected (batch, 3 frames, 12 normalized XY features)")
+        n, t, _ = x.shape
+        coordinates = self.coordinate_norm(x.transpose(1, 2))
+        coordinates = coordinates.reshape(n, 6, 2, t).permute(0, 2, 3, 1)
         for block in self.blocks:
-            x = block(x, self.adjacency)
-        return self.head(x.mean(dim=(2, 3)))
+            coordinates = block(coordinates, self.adjacency)
+        return self.head(coordinates.mean(dim=(2, 3)))

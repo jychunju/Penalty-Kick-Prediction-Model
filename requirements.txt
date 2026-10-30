@@ -1,7 +1,5 @@
 torch
 numpy
 scikit-learn
-matplotlib
 opencv-python
-Pillow
 ultralytics

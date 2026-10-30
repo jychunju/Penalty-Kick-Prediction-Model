@@ -17,6 +17,7 @@ OUTPUT=BASE/'runs/150penalties_pose'
 
 def arguments():
  p=argparse.ArgumentParser(description=__doc__)
+ p.add_argument('--manifest',type=Path,default=BASE/'annotations/150penalties_segments.json')
  p.add_argument('--stage',choices=['infer','render','combine','all'],default='all')
  p.add_argument('--input-dir',type=Path,default=INPUT)
  p.add_argument('--output-dir',type=Path,default=OUTPUT)
@@ -104,7 +105,7 @@ def combine(a,manifest):
 
 def main():
  a=arguments();a.output_dir.mkdir(parents=True,exist_ok=True)
- manifest=json.loads((a.output_dir/'segments.json').read_text())
+ manifest=json.loads(a.manifest.read_text())
  assert set(manifest)=={p.name for p in a.input_dir.glob('*.mp4')}
  if a.worker is not None:worker(a,manifest);return
  if a.stage in ('infer','all'):launch(a,'infer')

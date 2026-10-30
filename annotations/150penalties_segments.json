@@ -1,0 +1,3066 @@
+{
+  "001-R-L-L.mp4": {
+    "roi_xyxy": [
+      280,
+      510,
+      840,
+      800
+    ],
+    "seed_center_xy": [
+      375,
+      640
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 78,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Last source frame shows foot close to ball, but clip ends without unequivocal contact or ball departure. Endpoint retained as candidate only.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "002-R-R-R.mp4": {
+    "roi_xyxy": [
+      100,
+      450,
+      870,
+      760
+    ],
+    "seed_center_xy": [
+      220,
+      600
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 38,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "003-C-R-L.mp4": {
+    "roi_xyxy": [
+      370,
+      400,
+      1120,
+      990
+    ],
+    "seed_center_xy": [
+      500,
+      680
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 32,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "004-C-R-R.mp4": {
+    "roi_xyxy": [
+      70,
+      430,
+      1070,
+      1000
+    ],
+    "seed_center_xy": [
+      260,
+      700
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 30,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "005-R-R-L.mp4": {
+    "roi_xyxy": [
+      450,
+      440,
+      980,
+      750
+    ],
+    "seed_center_xy": [
+      580,
+      605
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 45,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "006-C-R-C.mp4": {
+    "roi_xyxy": [
+      450,
+      520,
+      1120,
+      1010
+    ],
+    "seed_center_xy": [
+      550,
+      780
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 37,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "007-C-R-L.mp4": {
+    "roi_xyxy": [
+      490,
+      550,
+      1140,
+      1070
+    ],
+    "seed_center_xy": [
+      630,
+      815
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 38,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "008-C-L-R.mp4": {
+    "roi_xyxy": [
+      840,
+      530,
+      1560,
+      1050
+    ],
+    "seed_center_xy": [
+      1460,
+      795
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 28,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "008-C-R-L.mp4": {
+    "roi_xyxy": [
+      640,
+      480,
+      1150,
+      1030
+    ],
+    "seed_center_xy": [
+      905,
+      770
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 62,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "009-C-R-L.mp4": {
+    "roi_xyxy": [
+      290,
+      520,
+      1170,
+      1070
+    ],
+    "seed_center_xy": [
+      500,
+      810
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 28,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "010-L-L-C.mp4": {
+    "roi_xyxy": [
+      940,
+      530,
+      1580,
+      860
+    ],
+    "seed_center_xy": [
+      1400,
+      710
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 30,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "011-R-L-R.mp4": {
+    "roi_xyxy": [
+      520,
+      540,
+      1190,
+      830
+    ],
+    "seed_center_xy": [
+      635,
+      670
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 53,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "012-C-R-L.mp4": {
+    "roi_xyxy": [
+      610,
+      540,
+      1130,
+      830
+    ],
+    "seed_center_xy": [
+      845,
+      685
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 62,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "013-R-R-R.mp4": {
+    "roi_xyxy": [
+      240,
+      430,
+      950,
+      790
+    ],
+    "seed_center_xy": [
+      400,
+      630
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 29,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "014-C-L-L.mp4": {
+    "roi_xyxy": [
+      810,
+      560,
+      1200,
+      850
+    ],
+    "seed_center_xy": [
+      1030,
+      685
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 43,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "015-R-R-L.mp4": {
+    "roi_xyxy": [
+      130,
+      350,
+      860,
+      730
+    ],
+    "seed_center_xy": [
+      255,
+      490
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 44,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Source frames inspected; endpoint is first visible foot-ball contact at 25 fps, with +/-1 frame annotation uncertainty.",
+    "source_cache_reused": "Identical source bytes and identical YOLOv8m-pose ROI settings to penaltyfirst15; start reset to frame 0."
+  },
+  "016-L-R-R.mp4": {
+    "roi_xyxy": [
+      1100,
+      330,
+      1720,
+      670
+    ],
+    "seed_center_xy": [
+      1617,
+      465
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 45,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "seed_review_note": "Corrected after visual QA: exclude nearby waiting players."
+  },
+  "017-R-R-R.mp4": {
+    "roi_xyxy": [
+      560,
+      350,
+      1070,
+      610
+    ],
+    "seed_center_xy": [
+      654,
+      492
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 38,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "seed_review_note": "Corrected after visual QA: exclude nearby waiting players."
+  },
+  "018-L-R-C.mp4": {
+    "roi_xyxy": [
+      390,
+      308,
+      1364,
+      714
+    ],
+    "seed_center_xy": [
+      1155.0,
+      519.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 45,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "019-L-R-R.mp4": {
+    "roi_xyxy": [
+      1090,
+      400,
+      1630,
+      700
+    ],
+    "seed_center_xy": [
+      1488,
+      579
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 29,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "seed_review_note": "Corrected after visual QA: exclude nearby waiting players."
+  },
+  "020-L-R-R.mp4": {
+    "roi_xyxy": [
+      992,
+      360,
+      1496,
+      702
+    ],
+    "seed_center_xy": [
+      1347,
+      552
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 53,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "association_anchors": [
+      [
+        0,
+        1347,
+        552
+      ],
+      [
+        53,
+        1143,
+        510
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "021-C-R-R.mp4": {
+    "roi_xyxy": [
+      506,
+      308,
+      1526,
+      976
+    ],
+    "seed_center_xy": [
+      776.0778198242188,
+      690.720458984375
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 40,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "022-C-R-R.mp4": {
+    "roi_xyxy": [
+      300,
+      198,
+      1320,
+      1032
+    ],
+    "seed_center_xy": [
+      569.9508666992188,
+      674.5697174072266
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 45,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "023-C-R-R.mp4": {
+    "roi_xyxy": [
+      312,
+      216,
+      1332,
+      1014
+    ],
+    "seed_center_xy": [
+      583.4160766601562,
+      672.6431274414062
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 38,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "024-C-R-L.mp4": {
+    "roi_xyxy": [
+      102,
+      296,
+      1122,
+      954
+    ],
+    "seed_center_xy": [
+      372.3774719238281,
+      672.8634033203125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 29,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "025-C-L-R.mp4": {
+    "roi_xyxy": [
+      734,
+      230,
+      1754,
+      964
+    ],
+    "seed_center_xy": [
+      1483.7510986328125,
+      649.5980377197266
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 35,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "026-R-R-C.mp4": {
+    "roi_xyxy": [
+      542,
+      360,
+      1068,
+      660
+    ],
+    "seed_center_xy": [
+      693,
+      510
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 38,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        693,
+        510
+      ],
+      [
+        38,
+        918,
+        510
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "027-L-R-R.mp4": {
+    "roi_xyxy": [
+      1040,
+      420,
+      1590,
+      738
+    ],
+    "seed_center_xy": [
+      1440,
+      570
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 35,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        1440,
+        570
+      ],
+      [
+        35,
+        1191,
+        588
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "028-R-R-L.mp4": {
+    "roi_xyxy": [
+      162,
+      300,
+      734,
+      618
+    ],
+    "seed_center_xy": [
+      312,
+      450
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 35,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        312,
+        450
+      ],
+      [
+        35,
+        585,
+        468
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "029-L-R-L.mp4": {
+    "roi_xyxy": [
+      1068,
+      402,
+      1442,
+      710
+    ],
+    "seed_center_xy": [
+      1293,
+      561
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 38,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        1293,
+        561
+      ],
+      [
+        38,
+        1218,
+        552
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "030-L-L-L.mp4": {
+    "roi_xyxy": [
+      570,
+      242,
+      1544,
+      648
+    ],
+    "seed_center_xy": [
+      1335.0,
+      453.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 27,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "031-R-R-R.mp4": {
+    "roi_xyxy": [
+      324,
+      350,
+      890,
+      716
+    ],
+    "seed_center_xy": [
+      474,
+      501
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 24,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        474,
+        501
+      ],
+      [
+        24,
+        741,
+        567
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "032-R-R-L.mp4": {
+    "roi_xyxy": [
+      66,
+      302,
+      1040,
+      708
+    ],
+    "seed_center_xy": [
+      276.0,
+      513.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 33,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "033-R-R-L.mp4": {
+    "roi_xyxy": [
+      402,
+      312,
+      804,
+      612
+    ],
+    "seed_center_xy": [
+      552,
+      462
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 17,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        552,
+        462
+      ],
+      [
+        17,
+        654,
+        462
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "034-L-R-R.mp4": {
+    "roi_xyxy": [
+      690,
+      402,
+      1664,
+      806
+    ],
+    "seed_center_xy": [
+      1455.0,
+      612.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 42,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "035-C-R-L.mp4": {
+    "roi_xyxy": [
+      198,
+      346,
+      1218,
+      1030
+    ],
+    "seed_center_xy": [
+      468.02276611328125,
+      737.4984741210938
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 31,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "036-C-R-R.mp4": {
+    "roi_xyxy": [
+      88,
+      272,
+      1108,
+      1002
+    ],
+    "seed_center_xy": [
+      358.001708984375,
+      689.2884521484375
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 28,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "037-C-R-R.mp4": {
+    "roi_xyxy": [
+      146,
+      300,
+      1166,
+      1002
+    ],
+    "seed_center_xy": [
+      416.01239013671875,
+      701.2576904296875
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 35,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "038-C-R-L.mp4": {
+    "roi_xyxy": [
+      228,
+      222,
+      1248,
+      920
+    ],
+    "seed_center_xy": [
+      497.6178894042969,
+      620.8214111328125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 29,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "039-C-R-L.mp4": {
+    "roi_xyxy": [
+      338,
+      248,
+      1358,
+      936
+    ],
+    "seed_center_xy": [
+      607.5836181640625,
+      641.4271392822266
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 36,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "040-C-R-L.mp4": {
+    "roi_xyxy": [
+      48,
+      296,
+      1068,
+      976
+    ],
+    "seed_center_xy": [
+      318.0846862792969,
+      685.5
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 41,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "041-C-R-C.mp4": {
+    "roi_xyxy": [
+      266,
+      276,
+      1286,
+      990
+    ],
+    "seed_center_xy": [
+      537.2863922119141,
+      684.2039794921875
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 37,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "042-R-R-L.mp4": {
+    "roi_xyxy": [
+      72,
+      386,
+      1046,
+      790
+    ],
+    "seed_center_xy": [
+      282.41827392578125,
+      595.8165283203125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 27,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "043-L-R-C.mp4": {
+    "roi_xyxy": [
+      1032,
+      380,
+      1422,
+      680
+    ],
+    "seed_center_xy": [
+      1272,
+      531
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 50,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        1272,
+        531
+      ],
+      [
+        50,
+        1182,
+        531
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated. Source frame 5 followed an overlapping waiting player and is explicitly rejected rather than filled.",
+    "rejected_detection_frames": [
+      5
+    ]
+  },
+  "044-L-R-L.mp4": {
+    "roi_xyxy": [
+      1104,
+      356,
+      1542,
+      680
+    ],
+    "seed_center_xy": [
+      1392,
+      531
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 54,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        1392,
+        531
+      ],
+      [
+        54,
+        1254,
+        507
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "045-L-R-C.mp4": {
+    "roi_xyxy": [
+      1064,
+      296,
+      1538,
+      602
+    ],
+    "seed_center_xy": [
+      1215,
+      447
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 45,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        1215,
+        447
+      ],
+      [
+        45,
+        1389,
+        453
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "046-L-L-R.mp4": {
+    "roi_xyxy": [
+      782,
+      308,
+      1758,
+      714
+    ],
+    "seed_center_xy": [
+      1548.0,
+      519.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 26,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "047-L-R-R.mp4": {
+    "roi_xyxy": [
+      314,
+      456,
+      1290,
+      860
+    ],
+    "seed_center_xy": [
+      1080.0,
+      666.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 44,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "048-R-R-R.mp4": {
+    "roi_xyxy": [
+      144,
+      296,
+      1118,
+      702
+    ],
+    "seed_center_xy": [
+      354.39739990234375,
+      507.27227783203125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 36,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "049-L-R-L.mp4": {
+    "roi_xyxy": [
+      1082,
+      378,
+      1526,
+      726
+    ],
+    "seed_center_xy": [
+      1377,
+      576
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 33,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        1377,
+        576
+      ],
+      [
+        33,
+        1233,
+        528
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "050-L-R-R.mp4": {
+    "roi_xyxy": [
+      710,
+      326,
+      1684,
+      732
+    ],
+    "seed_center_xy": [
+      1474.794677734375,
+      536.836669921875
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 33,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "051-L-R-L.mp4": {
+    "roi_xyxy": [
+      730,
+      384,
+      1706,
+      790
+    ],
+    "seed_center_xy": [
+      1496.314697265625,
+      595.2855224609375
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 47,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "052-L-R-C.mp4": {
+    "roi_xyxy": [
+      1188,
+      386,
+      1694,
+      704
+    ],
+    "seed_center_xy": [
+      1545,
+      555
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 33,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        1545,
+        555
+      ],
+      [
+        33,
+        1338,
+        537
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "053-R-R-L.mp4": {
+    "roi_xyxy": [
+      276,
+      312,
+      1250,
+      716
+    ],
+    "seed_center_xy": [
+      486.0,
+      522.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 33,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "054-R-R-R.mp4": {
+    "roi_xyxy": [
+      440,
+      216,
+      1416,
+      620
+    ],
+    "seed_center_xy": [
+      651.0,
+      426.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 50,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "055-C-R-R.mp4": {
+    "roi_xyxy": [
+      406,
+      384,
+      1426,
+      880
+    ],
+    "seed_center_xy": [
+      676.7655029296875,
+      668.2440795898438
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 32,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "056-R-L-R.mp4": {
+    "roi_xyxy": [
+      202,
+      360,
+      1178,
+      766
+    ],
+    "seed_center_xy": [
+      412.7044982910156,
+      570.9991455078125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 28,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "057-R-R-R.mp4": {
+    "roi_xyxy": [
+      462,
+      294,
+      1436,
+      698
+    ],
+    "seed_center_xy": [
+      672.0,
+      504.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 23,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "058-L-R-L.mp4": {
+    "roi_xyxy": [
+      510,
+      424,
+      1484,
+      828
+    ],
+    "seed_center_xy": [
+      1275.031982421875,
+      633.9271240234375
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 51,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "059-L-R-L.mp4": {
+    "roi_xyxy": [
+      602,
+      448,
+      1578,
+      854
+    ],
+    "seed_center_xy": [
+      1367.945068359375,
+      658.9984130859375
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 32,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "060-L-L-L.mp4": {
+    "roi_xyxy": [
+      766,
+      366,
+      1740,
+      772
+    ],
+    "seed_center_xy": [
+      1530.774169921875,
+      576.7687835693359
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 36,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "061-L-L-C.mp4": {
+    "roi_xyxy": [
+      810,
+      344,
+      1784,
+      750
+    ],
+    "seed_center_xy": [
+      1575.0,
+      555.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 36,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed left foot contact and first ball displacement at source frame 36."
+  },
+  "061-L-R-L.mp4": {
+    "roi_xyxy": [
+      700,
+      390,
+      1674,
+      800
+    ],
+    "seed_center_xy": [
+      1465.0540771484375,
+      605.6055908203125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 37,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "062-L-R-R.mp4": {
+    "roi_xyxy": [
+      514,
+      404,
+      1490,
+      810
+    ],
+    "seed_center_xy": [
+      1279.77734375,
+      615.3634643554688
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 24,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "063-L-R-R.mp4": {
+    "roi_xyxy": [
+      642,
+      422,
+      1618,
+      828
+    ],
+    "seed_center_xy": [
+      1408.135009765625,
+      634.1615600585938
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 47,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "064-L-R-L.mp4": {
+    "roi_xyxy": [
+      606,
+      386,
+      1580,
+      792
+    ],
+    "seed_center_xy": [
+      1370.6263427734375,
+      596.6571044921875
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 35,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "065-L-R-L.mp4": {
+    "roi_xyxy": [
+      580,
+      422,
+      1556,
+      828
+    ],
+    "seed_center_xy": [
+      1346.282470703125,
+      633.3609619140625
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 36,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "066-L-R-R.mp4": {
+    "roi_xyxy": [
+      454,
+      398,
+      1430,
+      802
+    ],
+    "seed_center_xy": [
+      1220.023193359375,
+      607.7472534179688
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 51,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "067-L-R-L.mp4": {
+    "roi_xyxy": [
+      574,
+      386,
+      1548,
+      790
+    ],
+    "seed_center_xy": [
+      1339.2138671875,
+      596.0419921875
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 38,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "068-L-R-L.mp4": {
+    "roi_xyxy": [
+      1100,
+      348,
+      1520,
+      668
+    ],
+    "seed_center_xy": [
+      1371,
+      519
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 37,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        1371,
+        519
+      ],
+      [
+        37,
+        1251,
+        498
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "069-R-L-R.mp4": {
+    "roi_xyxy": [
+      594,
+      302,
+      992,
+      648
+    ],
+    "seed_center_xy": [
+      744,
+      498
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 19,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        744,
+        498
+      ],
+      [
+        19,
+        843,
+        453
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "070-L-L-R.mp4": {
+    "roi_xyxy": [
+      936,
+      316,
+      1910,
+      722
+    ],
+    "seed_center_xy": [
+      1700.843505859375,
+      527.4254150390625
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 34,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "071-L-R-L.mp4": {
+    "roi_xyxy": [
+      812,
+      420,
+      1788,
+      824
+    ],
+    "seed_center_xy": [
+      1578.0,
+      630.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 41,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "072-R-L-R.mp4": {
+    "roi_xyxy": [
+      46,
+      498,
+      1022,
+      920
+    ],
+    "seed_center_xy": [
+      256.7749328613281,
+      725.6939697265625
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 49,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "073-C-R-L.mp4": {
+    "roi_xyxy": [
+      354,
+      460,
+      1374,
+      892
+    ],
+    "seed_center_xy": [
+      624.8553466796875,
+      697.6028442382812
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 30,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "074-C-L-R.mp4": {
+    "roi_xyxy": [
+      416,
+      406,
+      1436,
+      858
+    ],
+    "seed_center_xy": [
+      1167.46484375,
+      663.607666015625
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 30,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "075-C-R-L.mp4": {
+    "roi_xyxy": [
+      464,
+      350,
+      1484,
+      780
+    ],
+    "seed_center_xy": [
+      735.0,
+      585.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 30,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "076-C-R-R.mp4": {
+    "roi_xyxy": [
+      466,
+      476,
+      1486,
+      896
+    ],
+    "seed_center_xy": [
+      736.01513671875,
+      702.1060791015625
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 31,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "077-C-R-L.mp4": {
+    "roi_xyxy": [
+      288,
+      550,
+      1308,
+      974
+    ],
+    "seed_center_xy": [
+      559.001708984375,
+      780.3329467773438
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 26,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "078-C-R-R.mp4": {
+    "roi_xyxy": [
+      294,
+      500,
+      1314,
+      954
+    ],
+    "seed_center_xy": [
+      564.38037109375,
+      760.160400390625
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 33,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "079-C-R-L.mp4": {
+    "roi_xyxy": [
+      116,
+      478,
+      1136,
+      1026
+    ],
+    "seed_center_xy": [
+      385.7018737792969,
+      791.11181640625
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 71,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "080-C-R-R.mp4": {
+    "roi_xyxy": [
+      446,
+      454,
+      1466,
+      860
+    ],
+    "seed_center_xy": [
+      716.518310546875,
+      664.8644409179688
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 38,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "081-C-L-R.mp4": {
+    "roi_xyxy": [
+      318,
+      470,
+      1338,
+      876
+    ],
+    "seed_center_xy": [
+      1067.84375,
+      681.48291015625
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 32,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "082-L-R-L.mp4": {
+    "roi_xyxy": [
+      488,
+      326,
+      1462,
+      732
+    ],
+    "seed_center_xy": [
+      1252.754638671875,
+      537.4004516601562
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 27,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "083-R-R-L.mp4": {
+    "roi_xyxy": [
+      534,
+      386,
+      1508,
+      792
+    ],
+    "seed_center_xy": [
+      744.0,
+      597.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 24,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "084-R-R-R.mp4": {
+    "roi_xyxy": [
+      0,
+      508,
+      946,
+      914
+    ],
+    "seed_center_xy": [
+      180.87026977539062,
+      718.760498046875
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 22,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "085-R-R-R.mp4": {
+    "roi_xyxy": [
+      0,
+      504,
+      912,
+      948
+    ],
+    "seed_center_xy": [
+      148.0074005126953,
+      754.4654541015625
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 41,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "086-R-R-R.mp4": {
+    "roi_xyxy": [
+      0,
+      546,
+      856,
+      950
+    ],
+    "seed_center_xy": [
+      91.11193084716797,
+      756.413818359375
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 34,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "087-R-R-L.mp4": {
+    "roi_xyxy": [
+      0,
+      560,
+      962,
+      964
+    ],
+    "seed_center_xy": [
+      197.0386505126953,
+      769.610595703125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 24,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "088-R-R-L.mp4": {
+    "roi_xyxy": [
+      0,
+      528,
+      930,
+      934
+    ],
+    "seed_center_xy": [
+      166.16629028320312,
+      738.893310546875
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 24,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "089-R-R-L.mp4": {
+    "roi_xyxy": [
+      0,
+      522,
+      890,
+      958
+    ],
+    "seed_center_xy": [
+      125.25867462158203,
+      763.249755859375
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 35,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "090-R-L-C.mp4": {
+    "roi_xyxy": [
+      0,
+      558,
+      974,
+      1004
+    ],
+    "seed_center_xy": [
+      210.2454376220703,
+      809.953125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 37,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "091-L-R-L.mp4": {
+    "roi_xyxy": [
+      362,
+      482,
+      1338,
+      888
+    ],
+    "seed_center_xy": [
+      1128.0,
+      693.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 42,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "092-C-R-C.mp4": {
+    "roi_xyxy": [
+      376,
+      564,
+      1396,
+      994
+    ],
+    "seed_center_xy": [
+      646.6510620117188,
+      798.9409790039062
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 35,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "093-R-R-R.mp4": {
+    "roi_xyxy": [
+      414,
+      374,
+      1388,
+      780
+    ],
+    "seed_center_xy": [
+      624.0,
+      585.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 44,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "094-R-R-C.mp4": {
+    "roi_xyxy": [
+      510,
+      354,
+      1484,
+      758
+    ],
+    "seed_center_xy": [
+      720.0,
+      564.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 32,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "095-R-R-R.mp4": {
+    "roi_xyxy": [
+      480,
+      446,
+      1454,
+      852
+    ],
+    "seed_center_xy": [
+      690.0,
+      657.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 20,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "096-L-R-R.mp4": {
+    "roi_xyxy": [
+      426,
+      374,
+      1400,
+      780
+    ],
+    "seed_center_xy": [
+      1191.0,
+      585.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 54,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "097-L-R-R.mp4": {
+    "roi_xyxy": [
+      390,
+      402,
+      1364,
+      808
+    ],
+    "seed_center_xy": [
+      1154.6337890625,
+      613.433349609375
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 42,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "098-R-R-L.mp4": {
+    "roi_xyxy": [
+      396,
+      372,
+      1370,
+      776
+    ],
+    "seed_center_xy": [
+      606.0,
+      582.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 39,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "099-L-L-L.mp4": {
+    "roi_xyxy": [
+      422,
+      414,
+      1398,
+      818
+    ],
+    "seed_center_xy": [
+      1188.0,
+      624.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 34,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "100-C-R-R.mp4": {
+    "roi_xyxy": [
+      528,
+      324,
+      1548,
+      754
+    ],
+    "seed_center_xy": [
+      799.3519897460938,
+      559.4133911132812
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 55,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "101-L-R-R.mp4": {
+    "roi_xyxy": [
+      746,
+      360,
+      1722,
+      786
+    ],
+    "seed_center_xy": [
+      1511.80029296875,
+      590.9715423583984
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 40,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "102-L-R-C.mp4": {
+    "roi_xyxy": [
+      882,
+      504,
+      1248,
+      854
+    ],
+    "seed_center_xy": [
+      1098,
+      705
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 23,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "association_anchors": [
+      [
+        0,
+        1098,
+        705
+      ],
+      [
+        25,
+        1032,
+        654
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "103-R-R-L.mp4": {
+    "roi_xyxy": [
+      506,
+      344,
+      1482,
+      750
+    ],
+    "seed_center_xy": [
+      717.0,
+      555.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 36,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "104-R-R-R.mp4": {
+    "roi_xyxy": [
+      0,
+      170,
+      974,
+      576
+    ],
+    "seed_center_xy": [
+      210.0,
+      381.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 25,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "105-R-R-R.mp4": {
+    "roi_xyxy": [
+      146,
+      306,
+      1122,
+      710
+    ],
+    "seed_center_xy": [
+      357.0,
+      516.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 29,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "106-C-L-L.mp4": {
+    "roi_xyxy": [
+      840,
+      450,
+      1740,
+      1080
+    ],
+    "seed_center_xy": [
+      1008.0828857421875,
+      833.4630126953125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 58,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "identity_review": "Expanded ROI includes backward preparation steps and subsequent run-up from source frame 0."
+  },
+  "107-C-R-R.mp4": {
+    "roi_xyxy": [
+      450,
+      450,
+      1170,
+      1080
+    ],
+    "seed_center_xy": [
+      960.8427734375,
+      830.882568359375
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 85,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "identity_review": "Expanded ROI includes backward preparation steps and subsequent run-up from source frame 0."
+  },
+  "108-C-R-L.mp4": {
+    "roi_xyxy": [
+      306,
+      266,
+      1326,
+      986
+    ],
+    "seed_center_xy": [
+      576.60546875,
+      678.3648529052734
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 49,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "109-L-R-L.mp4": {
+    "roi_xyxy": [
+      1000,
+      540,
+      1350,
+      765
+    ],
+    "seed_center_xy": [
+      1254,
+      663
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 43,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        1254,
+        663
+      ],
+      [
+        22,
+        1197,
+        654
+      ],
+      [
+        43,
+        1128,
+        636
+      ]
+    ],
+    "identity_review_note": "Manually selected Germany white jersey #6; initial detector association had followed a waiting player."
+  },
+  "110-R-R-R.mp4": {
+    "roi_xyxy": [
+      438,
+      398,
+      1412,
+      804
+    ],
+    "seed_center_xy": [
+      648.0,
+      609.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 46,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "111-R-R-R.mp4": {
+    "roi_xyxy": [
+      112,
+      368,
+      1088,
+      772
+    ],
+    "seed_center_xy": [
+      323.4051513671875,
+      577.5322875976562
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 33,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "112-L-R-R.mp4": {
+    "roi_xyxy": [
+      420,
+      426,
+      1394,
+      830
+    ],
+    "seed_center_xy": [
+      1185.0,
+      636.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 55,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "113-C-R-R.mp4": {
+    "roi_xyxy": [
+      74,
+      256,
+      1094,
+      1034
+    ],
+    "seed_center_xy": [
+      344.4024353027344,
+      700.5369873046875
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 37,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "114-R-L-R.mp4": {
+    "roi_xyxy": [
+      582,
+      404,
+      1556,
+      810
+    ],
+    "seed_center_xy": [
+      792.0,
+      615.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 73,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "115-L-R-L.mp4": {
+    "roi_xyxy": [
+      662,
+      426,
+      1638,
+      830
+    ],
+    "seed_center_xy": [
+      1428.0,
+      636.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 40,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "116-L-R-R.mp4": {
+    "roi_xyxy": [
+      642,
+      422,
+      1616,
+      828
+    ],
+    "seed_center_xy": [
+      1407.0,
+      633.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 38,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "117-L-L-L.mp4": {
+    "roi_xyxy": [
+      840,
+      332,
+      1814,
+      738
+    ],
+    "seed_center_xy": [
+      1605.0,
+      543.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 39,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "118-L-R-L.mp4": {
+    "roi_xyxy": [
+      954,
+      390,
+      1356,
+      720
+    ],
+    "seed_center_xy": [
+      1206,
+      570
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 48,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "association_anchors": [
+      [
+        0,
+        1206,
+        570
+      ],
+      [
+        49,
+        1104,
+        540
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "119-R-L-R.mp4": {
+    "roi_xyxy": [
+      260,
+      348,
+      1236,
+      752
+    ],
+    "seed_center_xy": [
+      471.0,
+      558.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 19,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "120-R-R-R.mp4": {
+    "roi_xyxy": [
+      522,
+      342,
+      1010,
+      672
+    ],
+    "seed_center_xy": [
+      672,
+      492
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 48,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "association_anchors": [
+      [
+        0,
+        672,
+        492
+      ],
+      [
+        49,
+        861,
+        522
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "121-R-R-L.mp4": {
+    "roi_xyxy": [
+      474,
+      288,
+      1448,
+      692
+    ],
+    "seed_center_xy": [
+      684.0,
+      498.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 19,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "122-R-R-R.mp4": {
+    "roi_xyxy": [
+      124,
+      302,
+      1100,
+      708
+    ],
+    "seed_center_xy": [
+      335.48760986328125,
+      513.1738891601562
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 42,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "123-L-L-R.mp4": {
+    "roi_xyxy": [
+      714,
+      278,
+      1688,
+      684
+    ],
+    "seed_center_xy": [
+      1479.0,
+      489.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 39,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "124-R-R-R.mp4": {
+    "roi_xyxy": [
+      432,
+      380,
+      974,
+      686
+    ],
+    "seed_center_xy": [
+      582,
+      531
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 23,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "association_anchors": [
+      [
+        0,
+        582,
+        531
+      ],
+      [
+        24,
+        825,
+        537
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "125-L-L-L.mp4": {
+    "roi_xyxy": [
+      630,
+      356,
+      1604,
+      762
+    ],
+    "seed_center_xy": [
+      1395.0,
+      567.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 46,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "126-R-L-C.mp4": {
+    "roi_xyxy": [
+      488,
+      372,
+      924,
+      740
+    ],
+    "seed_center_xy": [
+      639,
+      591
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 23,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "association_anchors": [
+      [
+        0,
+        639,
+        591
+      ],
+      [
+        24,
+        774,
+        522
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "127-R-L-R.mp4": {
+    "roi_xyxy": [
+      470,
+      414,
+      1446,
+      818
+    ],
+    "seed_center_xy": [
+      681.0,
+      624.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 38,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "128-R-L-L.mp4": {
+    "roi_xyxy": [
+      374,
+      450,
+      1350,
+      854
+    ],
+    "seed_center_xy": [
+      585.0,
+      660.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 43,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "129-R-R-L.mp4": {
+    "roi_xyxy": [
+      468,
+      404,
+      1022,
+      720
+    ],
+    "seed_center_xy": [
+      618,
+      570
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 26,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "association_anchors": [
+      [
+        0,
+        618,
+        570
+      ],
+      [
+        27,
+        873,
+        555
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "130-R-R-L.mp4": {
+    "roi_xyxy": [
+      432,
+      284,
+      1406,
+      690
+    ],
+    "seed_center_xy": [
+      642.0,
+      495.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 27,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "131-L-L-R.mp4": {
+    "roi_xyxy": [
+      518,
+      216,
+      1494,
+      620
+    ],
+    "seed_center_xy": [
+      1284.0,
+      426.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 30,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "132-L-L-L.mp4": {
+    "roi_xyxy": [
+      464,
+      368,
+      1440,
+      774
+    ],
+    "seed_center_xy": [
+      1230.0,
+      579.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 22,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "133-C-R-R.mp4": {
+    "roi_xyxy": [
+      358,
+      328,
+      1378,
+      780
+    ],
+    "seed_center_xy": [
+      627.6910400390625,
+      584.9348297119141
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 46,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "134-C-R-L.mp4": {
+    "roi_xyxy": [
+      226,
+      384,
+      1246,
+      1042
+    ],
+    "seed_center_xy": [
+      496.479248046875,
+      760.1817626953125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 40,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "135-C-R-R.mp4": {
+    "roi_xyxy": [
+      348,
+      466,
+      1368,
+      994
+    ],
+    "seed_center_xy": [
+      618.5308837890625,
+      767.8372802734375
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 32,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "136-C-R-L.mp4": {
+    "roi_xyxy": [
+      236,
+      340,
+      1256,
+      900
+    ],
+    "seed_center_xy": [
+      506.6435546875,
+      660.7470092773438
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 39,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "137-C-R-R.mp4": {
+    "roi_xyxy": [
+      328,
+      468,
+      1348,
+      950
+    ],
+    "seed_center_xy": [
+      598.5587768554688,
+      744.2218017578125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 21,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "138-C-R-L.mp4": {
+    "roi_xyxy": [
+      428,
+      406,
+      1448,
+      906
+    ],
+    "seed_center_xy": [
+      698.071044921875,
+      692.4779663085938
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 25,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "139-C-R-L.mp4": {
+    "roi_xyxy": [
+      336,
+      356,
+      1356,
+      884
+    ],
+    "seed_center_xy": [
+      606.3646240234375,
+      658.5202026367188
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 43,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "140-C-R-L.mp4": {
+    "roi_xyxy": [
+      438,
+      338,
+      1458,
+      832
+    ],
+    "seed_center_xy": [
+      708.1156616210938,
+      620.9699859619141
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 54,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "141-R-L-R.mp4": {
+    "roi_xyxy": [
+      178,
+      446,
+      1154,
+      850
+    ],
+    "seed_center_xy": [
+      389.12103271484375,
+      655.697509765625
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 37,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "142-L-R-L.mp4": {
+    "roi_xyxy": [
+      838,
+      394,
+      1814,
+      798
+    ],
+    "seed_center_xy": [
+      1604.1929931640625,
+      604.4390869140625
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 48,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "143-L-L-R.mp4": {
+    "roi_xyxy": [
+      954,
+      316,
+      1920,
+      720
+    ],
+    "seed_center_xy": [
+      1719.718017578125,
+      525.9047698974609
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 40,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "144-L-L-R.mp4": {
+    "roi_xyxy": [
+      998,
+      312,
+      1920,
+      716
+    ],
+    "seed_center_xy": [
+      1763.5283203125,
+      522.4063720703125
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 42,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "145-L-L-R.mp4": {
+    "roi_xyxy": [
+      822,
+      306,
+      1796,
+      710
+    ],
+    "seed_center_xy": [
+      1587.0,
+      516.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 27,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "146-L-R-L.mp4": {
+    "roi_xyxy": [
+      952,
+      482,
+      1920,
+      888
+    ],
+    "seed_center_xy": [
+      1717.436279296875,
+      693.1082153320312
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 46,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "147-R-R-L.mp4": {
+    "roi_xyxy": [
+      458,
+      378,
+      956,
+      692
+    ],
+    "seed_center_xy": [
+      609,
+      543
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 31,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included.",
+    "association_anchors": [
+      [
+        0,
+        609,
+        543
+      ],
+      [
+        32,
+        807,
+        528
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  },
+  "148-L-R-R.mp4": {
+    "roi_xyxy": [
+      658,
+      420,
+      1634,
+      826
+    ],
+    "seed_center_xy": [
+      1424.228759765625,
+      630.7595825195312
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 34,
+    "contact_status": "visually_reviewed",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed foot/ball overlap or first ball displacement in the final 12 source frames; contact frame included."
+  },
+  "149-L-R-L.mp4": {
+    "roi_xyxy": [
+      362,
+      392,
+      1338,
+      798
+    ],
+    "seed_center_xy": [
+      1128.0,
+      603.0
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 51,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label."
+  },
+  "150-L-R-L.mp4": {
+    "roi_xyxy": [
+      972,
+      450,
+      1458,
+      834
+    ],
+    "seed_center_xy": [
+      1308,
+      684
+    ],
+    "runup_start_frame": 0,
+    "contact_frame": 31,
+    "contact_status": "uncertain_clip_end",
+    "start_status": "source_clip_start_requested",
+    "contact_uncertainty_frames": 1,
+    "boundary_review": "Visually reviewed final 12 source frames. Contact cannot be confirmed before the clip ends; final frame is an endpoint candidate only, not a confirmed contact label.",
+    "association_anchors": [
+      [
+        0,
+        1308,
+        684
+      ],
+      [
+        31,
+        1122,
+        600
+      ]
+    ],
+    "identity_review": "Kicker visually identified at first and last frames; optional position anchors constrain detection association. Missing pose detections stay missing; joint coordinates are not interpolated."
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "reference_run": "runs/main_data_camera_c_lr_comparison",
-  "output_dir": "runs/main_data_camera_c_frames_joints",
-  "architectures": ["stgcn", "cnn"],
-  "frame_counts": [20, 10, 5, 3],
-  "joint_counts": [8, 6],
-  "devices": ["cuda:0", "cuda:1", "cuda:2", "cuda:3"]
-}

@@ -112,7 +112,7 @@ def validate_final(path, reference, canonical, normalized, original, specs, samp
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--input',type=Path,default=Path('Main Data/150penalties_pose_keypoints.csv'))
-    p.add_argument('--manifest',type=Path,default=Path('runs/150penalties_pose/segments.json'))
+    p.add_argument('--manifest',type=Path,default=Path('annotations/150penalties_segments.json'))
     p.add_argument('--output-dir',type=Path,default=Path('Main Data'))
     p.add_argument('--report-dir',type=Path,default=Path('runs/150penalties_preprocessing'))
     p.add_argument('--assume-clip-end-contact', action='store_true',

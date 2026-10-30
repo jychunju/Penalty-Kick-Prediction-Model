@@ -13,11 +13,5 @@ __pycache__/
 *.npz
 /data/
 /Main Data/
+/runs/
 /yolov8*.pt
-# Keep the published training checkpoints; ignore newly generated run outputs.
-/runs/**
-!/runs/**/
-!/runs/**/*.pt
-!/runs/**/*.py
-!/runs/**/*.txt
-!/runs/**/run_info.json
